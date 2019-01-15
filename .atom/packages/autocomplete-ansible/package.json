@@ -1,0 +1,59 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+  "_id": "autocomplete-ansible@0.1.24",
+  "_inBundle": false,
+  "_integrity": "sha512-Y1udl6Cc0MaGEnmw51Sy6vPpzv1oYkbTLazoU8TxwNn9eHWvSkSekUv+q8y2fkNlMPqUEjuM//ILqRz9KjtZSQ==",
+  "_location": "/autocomplete-ansible",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+  "_shasum": "39e6583d38be8f5c5b2c66b9c81e34523445ea4e",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+  "_where": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/apm-install-dir-1181026-25860-emv61j.t4tni",
+  "bugs": {
+    "url": "https://github.com/h-hirokawa/atom-autocomplete-ansible/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "fuzzaldrin": "^2.1"
+  },
+  "deprecated": false,
+  "description": "An autocomplete+ provider for Ansible Playbook",
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/h-hirokawa/atom-autocomplete-ansible#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./libs/main",
+  "name": "autocomplete-ansible",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-hirokawa/atom-autocomplete-ansible.git"
+  },
+  "version": "0.1.24"
+}

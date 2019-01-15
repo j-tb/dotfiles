@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball",
+  "_id": "relative-numbers@0.9.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KH1dRg2BTF24+3a7dnO12n8eT2oFvgwoD1ntlQhedss1wbeIK2CGPI4/sQnsUsZ2cGJU6fp3xca+IO1CNZXACg==",
+  "_location": "/relative-numbers",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball",
+  "_shasum": "b21aa1aaf87552fb5187701209650c632eecc3c1",
+  "_spec": "https://www.atom.io/api/packages/relative-numbers/versions/0.9.0/tarball",
+  "_where": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/apm-install-dir-1181028-84846-13etri1.c4sy",
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/justmoon/relative-numbers/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "deprecated": false,
+  "description": "Relative line numbers for Atom",
+  "engines": {
+    "atom": ">=1.13.0"
+  },
+  "homepage": "https://github.com/justmoon/relative-numbers#readme",
+  "license": "MIT",
+  "main": "./lib/relative-numbers",
+  "name": "relative-numbers",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/justmoon/relative-numbers.git"
+  },
+  "version": "0.9.0"
+}

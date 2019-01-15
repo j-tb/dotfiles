@@ -1,0 +1,26 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-juniper"
+      "language-gfm"
+      "markdown-preview"
+      "markdown-themeable-pdf"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "nucleus-dark-ui"
+      "rocket-dark-syntax"
+    ]
+  editor:
+    fontSize: 12
+    showInvisibles: true
+  "exception-reporting":
+    userId: "713a8736-604f-4417-8dbe-3d9a14f183c1"
+  "markdown-pdf":
+    border: "5mm"
+    format: "A5"
+  "split-diff":
+    ignoreWhitespace: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

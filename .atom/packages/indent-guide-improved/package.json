@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball",
+  "_id": "indent-guide-improved@1.4.13",
+  "_inBundle": false,
+  "_integrity": "sha512-SgeeuXMn5RM7yPNE/J0LofQ6y5nNyYkIrmT1+PebdJ81jv64xSneBcMYeQcM2IgppkqWh3cRabhB1j2BKjKk9A==",
+  "_location": "/indent-guide-improved",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball",
+  "_shasum": "8092d0f8906013e2c92bb71e759cbc0d7aaced6f",
+  "_spec": "https://www.atom.io/api/packages/indent-guide-improved/versions/1.4.13/tarball",
+  "_where": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/apm-install-dir-1181030-26795-1on1npb.ulxa",
+  "author": {
+    "name": "Akihiro HARAI"
+  },
+  "bugs": {
+    "url": "https://github.com/harai/indent-guide-improved/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "This draws indent guide more correctly and understandably.",
+  "engines": {
+    "atom": ">=1.19.0-beta0"
+  },
+  "homepage": "https://github.com/harai/indent-guide-improved#readme",
+  "keywords": [
+    "indentation",
+    "ruler",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "./lib/indent-guide-improved",
+  "name": "indent-guide-improved",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harai/indent-guide-improved.git"
+  },
+  "version": "1.4.13"
+}

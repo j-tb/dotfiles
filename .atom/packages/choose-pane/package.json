@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball",
+  "_id": "choose-pane@0.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-bu+NBexlZoAOR7HkIEmUez8BhsHq/H5fwVQpY2v2mVEZW5AdB5QGsJ3mL1dGrBtoitAlGSQj65iYeH0AKqjjoA==",
+  "_location": "/choose-pane",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball",
+  "_shasum": "95c0e2122889d4bd34a0401b36cee901525f03ac",
+  "_spec": "https://www.atom.io/api/packages/choose-pane/versions/0.8.0/tarball",
+  "_where": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/apm-install-dir-1181030-27217-bl2be3.mlfff",
+  "bugs": {
+    "url": "https://github.com/t9md/atom-choose-pane/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "labelChars": {
+      "order": 1,
+      "type": "string",
+      "default": ";ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "description": "Always be matched with case insensitive"
+    }
+  },
+  "deprecated": false,
+  "description": "choose pane by label",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/t9md/atom-choose-pane#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "choose-pane",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t9md/atom-choose-pane.git"
+  },
+  "version": "0.8.0"
+}

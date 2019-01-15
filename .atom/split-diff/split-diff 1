@@ -1,0 +1,23 @@
+set groups node0 system host-name socc-dcfw-dev-a
+set groups node0 system backup-router 10.222.30.1
+set groups node0 system backup-router destination 128.146.1.13/32
+set groups node0 system backup-router destination 128.146.48.13/32
+set groups node0 system backup-router destination 128.146.48.51/32
+set groups node0 system backup-router destination 128.146.222.140/32
+set groups node0 system backup-router destination 128.146.222.139/32
+set groups node0 system backup-router destination 10.222.30.100/32
+set groups node0 system backup-router destination 128.146.48.23/32
+set groups node0 system backup-router destination 128.146.1.23/32
+set groups node0 system backup-router destination 10.222.30.102/32
+set groups node0 system backup-router destination 172.17.72.5/32
+set groups node0 system backup-router destination 10.222.30.44/32
+set groups node0 system backup-router destination 128.146.53.142/32
+set groups node0 system backup-router destination 172.17.88.130/32
+set groups node0 system backup-router destination 128.146.43.69/32
+set groups node0 system backup-router destination 128.146.87.69/32
+set groups node0 system backup-router destination 10.222.30.48/32
+set groups node0 system services ssh max-sessions-per-connection 32
+set groups node0 system syslog file default-log-messages any info
+set groups node0 system syslog file default-log-messages match "(requested 'commit' operation)|(copying configuration to juniper.save)|(commit complete)|ifAdminStatus|(FRU power)|(FRU removal)|(FRU insertion)|(link UP)|transitioned|Transferred|transfer-file|(license add)|(license delete)|(package -X update)|(package -X delete)|(FRU Online)|(FRU Offline)|(plugged in)|(unplugged)|GRES"
+set groups node0 system syslog file default-log-messages structured-data
+set groups node0 interfaces fxp0 unit 0 family inet address 10.222.30.15/26

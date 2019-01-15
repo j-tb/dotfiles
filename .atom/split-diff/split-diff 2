@@ -1,0 +1,23 @@
+set groups node0 system host-name socc-dcfw-lib-a
+set groups node0 system backup-router 164.107.54.1
+set groups node0 system backup-router destination 128.146.48.13/32
+set groups node0 system backup-router destination 128.146.48.51/32
+set groups node0 system backup-router destination 10.222.30.100/32
+set groups node0 system backup-router destination 128.146.48.23/32
+set groups node0 system backup-router destination 128.146.1.23/32
+set groups node0 system backup-router destination 10.222.30.102/32
+set groups node0 system backup-router destination 10.222.30.44/32
+set groups node0 system backup-router destination 128.146.53.163/32
+set groups node0 system backup-router destination 10.222.30.48/32
+set groups node0 system services ssh max-sessions-per-connection 32
+set groups node0 system syslog file default-log-messages any info
+set groups node0 system syslog file default-log-messages match "(FRU Offline)|(FRU Online)|(FRU insertion)|(FRU power)|(FRU removal)|(commit complete)|(copying configuration to juniper.save)|(license add)|(license delete)|(link UP)|(package -X delete)|(package -X update)|(plugged in)|(requested 'commit synchronize' operation)|(requested 'commit' operation)|(unplugged)|Transferred|ifAdminStatus|transfer-file|transitioned|GRES"
+set groups node0 system syslog file default-log-messages structured-data
+set groups node0 system syslog source-address 172.20.8.81
+set groups node0 security log mode stream
+set groups node0 security log format syslog
+set groups node0 security log stream stream-syslog severity info
+set groups node0 security log stream stream-syslog format syslog
+set groups node0 security log stream stream-syslog category all
+set groups node0 security log stream stream-syslog host 128.146.48.14
+set groups node0 security log stream stream-syslog host port 514

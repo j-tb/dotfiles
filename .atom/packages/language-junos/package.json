@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+        "spec": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/apm-install-dir-118611-27847-j3fmkf.ixmlyds4i"
+    ]
+  ],
+  "_from": "../d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+  "_id": "language-junos@0.0.2",
+  "_inCache": true,
+  "_location": "/language-junos",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+    "spec": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+  "_shasum": "be351c29073c88fb12a752ddc46c5a130d496203",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/d-118611-27847-1v6ub2x.8gv9muz0k9/package.tgz",
+  "_where": "/private/var/folders/1_/k8tgzz8j07xd_h016nv_x9qn807wgr/T/apm-install-dir-118611-27847-j3fmkf.ixmlyds4i",
+  "bugs": {
+    "url": "https://github.com/diogoandre/language-junos/issues"
+  },
+  "dependencies": {},
+  "description": "Juniper Junos in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/diogoandre/language-junos#readme",
+  "license": "MIT",
+  "name": "language-junos",
+  "optionalDependencies": {},
+  "readme": "# Junos configuration files support in Atom\n\nAdds syntax highlighting to Juniper Junos configuration files in Atom.\n\n## Supported Filetypes\n\n* .jos\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoandre/language-junos.git"
+  },
+  "version": "0.0.2"
+}
