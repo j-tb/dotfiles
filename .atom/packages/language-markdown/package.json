@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "lib-ass": "0.0.6",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.21",
     "season": "^5.3"
   },
   "deprecated": false,
